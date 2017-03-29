@@ -8,4 +8,4 @@ class GetAction(BaseAction):
         output = []
         for each_item in response:
           output.append(each_item)
-        return outrp
+        return output
