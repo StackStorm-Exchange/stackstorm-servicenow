@@ -16,5 +16,5 @@ class BaseAction(Action):
 
         return sn.Client(instance_name, username, password, default_payload=default_payload)
 
-    def get_client_with_default_payload(default_payload):
+    def get_client_with_default_payload(self, default_payload):
         self.client = self._get_client(default_payload)
