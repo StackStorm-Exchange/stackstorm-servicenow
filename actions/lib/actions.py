@@ -11,7 +11,7 @@ class BaseAction(Action):
         instance_name = self.config['instance_name']
         username = self.config['username']
         password = self.config['password']
-        if not default_payload and self.config['default_payload']:
+        if not default_payload and 'default_payload' in self.config:
             default_payload = self.config['default_payload']
 
         return sn.Client(instance_name, username, password, default_payload=default_payload)
