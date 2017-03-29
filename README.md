@@ -21,6 +21,7 @@ An example pack has been included in this pack to show the integration of Servic
 * `instance_name` - Upstream Instance Name (e.x.: stackstorm)
 * `username` - Username of service account
 * `password` - Password of service account
+* `default_payload` - Common supported parameters that will be passed to all calls. [Example](http://wiki.servicenow.com/index.php?title=Table_API#Methods)
 
 ### Incoming Integration
 
