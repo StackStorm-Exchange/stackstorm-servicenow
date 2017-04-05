@@ -3,6 +3,6 @@
 ref: servicenow
 name: servicenow
 description: ServiceNow Integration Pack
-version: 0.3.0
+version: 0.3.1
 author: James Fryman
 email: james@stackstorm.com
