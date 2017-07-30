@@ -2,4 +2,4 @@
 instance_name: "StackStorm"
 username: "st2"
 password: "Sup3rS3cr3t"
-default_payload: ""
+default_payload: {}
