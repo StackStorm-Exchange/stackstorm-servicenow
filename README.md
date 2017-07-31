@@ -13,15 +13,21 @@ ServiceNow provides two videos to demonstrate how to setup Inbound and Outbound 
 
 An example pack has been included in this pack to show the integration of ServiceNow with these two integration examples.
 
-# Setup
 ## Configuration
 
 ### Outgoing Integration
+
+Copy the example configuration [servicenow.yaml.example](./servicenow.yaml.example) to
+`/opt/stackstorm/configs/servicenow.yaml` and edit as required. It should contain:
 
 * `instance_name` - Upstream Instance Name (e.x.: stackstorm)
 * `username` - Username of service account
 * `password` - Password of service account
 * `default_payload` - Common supported parameters that will be passed to all calls. [Example](http://wiki.servicenow.com/index.php?title=Table_API#Methods)
+
+**Note** : When modifying the configuration in `/opt/stackstorm/configs/` please
+           remember to tell StackStorm to load these new values by running
+           `st2ctl reload --register-configs`
 
 ### Incoming Integration
 
