@@ -1,1 +1,1 @@
-pysnow
+pysnow==0.6.5
