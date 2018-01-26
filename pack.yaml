@@ -5,6 +5,6 @@ description: ServiceNow Integration Pack
 keywords:
   - servicenow
   - incident management
-version: 0.3.3
+version: 0.3.4
 author: James Fryman
 email: james@stackstorm.com
