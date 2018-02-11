@@ -23,7 +23,7 @@ Copy the example configuration [servicenow.yaml.example](./servicenow.yaml.examp
 * `instance_name` - Upstream Instance Name (e.x.: stackstorm)
 * `username` - Username of service account
 * `password` - Password of service account
-* `default_payload` - Common supported parameters that will be passed to all calls. [Example](http://wiki.servicenow.com/index.php?title=Table_API#Methods)
+* `custom_params` - Common supported parameters that will be passed to all calls. [Example](https://developer.servicenow.com/app.do#!/rest_api_doc?v=jakarta&id=c_TableAPI)
 
 **Note** : When modifying the configuration in `/opt/stackstorm/configs/` please
            remember to tell StackStorm to load these new values by running

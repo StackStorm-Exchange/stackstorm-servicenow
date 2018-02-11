@@ -12,4 +12,9 @@ class BaseAction(Action):
         username = self.config['username']
         password = self.config['password']
 
-        return sn.Client(instance=instance_name, user=username, password=password)
+        s = sn.Client(instance=instance_name, user=username, password=password)
+
+        if 'custom_params' in self.config:
+            s.parameters.add_custom(self.config['custom_params'])
+
+        return s

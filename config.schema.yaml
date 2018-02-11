@@ -13,8 +13,7 @@
     type: "string"
     secret: true
     required: true
-  default_payload:
+  custom_params:
     description: "ServiceNow options that will be passed to all requests"
     type: object
     required: false
-    
