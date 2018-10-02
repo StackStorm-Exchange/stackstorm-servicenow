@@ -50,3 +50,4 @@ Content-Type: application/json
 * `servicenow.set_incident_owner` - Set the owner of an incident record
 * `servicenow.insert` - Insert an entry to a ServiceNow Table
 * `servicenow.delete` - Delete an entry from a ServiceNow Table
+* `servicenow.create_record` - Create an entry to a ServiceNow Table
