@@ -6,6 +6,5 @@ class CreateRecordAction(BaseAction):
         s = self.client
 
         path = '/table/{0}'.format(table)
-        response = s.resource(api_path=path).create(payload=payload)  # pylint: disable=no-member
-        return 
-
+        s.resource(api_path=path).create(payload=payload)  # pylint: disable=no-member
+        return
