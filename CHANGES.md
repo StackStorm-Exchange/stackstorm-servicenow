@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.3.6
+
+- Add new action create_record
+
 ## 0.3.5
 
 - Allow `custom_params` to be passed to the client
