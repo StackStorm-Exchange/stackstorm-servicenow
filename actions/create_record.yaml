@@ -1,0 +1,16 @@
+---
+name: "create_record"
+runner_type: "python-script"
+description: "Create a record to a ServiceNow Table"
+enabled: true
+entry_point: "create_record.py"
+parameters:
+  table:
+    type: "string"
+    description: "Table to take action on"
+    required: true
+  payload:
+    type: "object"
+    description: "Data to upload to ServiceNow"
+    required: true
+
