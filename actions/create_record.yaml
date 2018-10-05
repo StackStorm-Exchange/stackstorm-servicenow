@@ -1,5 +1,6 @@
 ---
 name: "create_record"
+pack: servicenow
 runner_type: "python-script"
 description: "Create a record to a ServiceNow Table"
 enabled: true
