@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.3.7
+- Add pack name to create_record
+- Return response from create_record action
+
 ## 0.3.6
 
 - Add new action create_record
