@@ -37,7 +37,7 @@ class ServiceNowActionTestCase(BaseActionTestCase):
         return self._full_config
 
     def test_get_instance_with_config(self):
-        action = self.get_action_instance(self.full_config)
+        self.get_action_instance(self.full_config)
 
     def test_get_instance_without_config(self):
         # Use try/except as self.assertRaises wasn't matching
