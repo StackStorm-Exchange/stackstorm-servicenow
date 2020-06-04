@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.3.8
+- Ensure action's config is configured with packname
+
 ## 0.3.7
 - Add pack name to create_record
 - Return response from create_record action

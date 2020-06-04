@@ -5,7 +5,7 @@ description: ServiceNow Integration Pack
 keywords:
   - servicenow
   - incident management
-version: 0.3.7
+version: 0.3.8
 python_versions:
   - "2"
   - "3"
