@@ -51,3 +51,6 @@ Content-Type: application/json
 * `servicenow.insert` - Insert an entry to a ServiceNow Table
 * `servicenow.delete` - Delete an entry from a ServiceNow Table
 * `servicenow.create_record` - Create an entry to a ServiceNow Table
+* `servicenow.get_attachments` - Gets the metadata of all attachments to a ServiceNow Table
+* `servicenow.get_attachment` - Gets the metadata of an attachment on a ServiceNow Table
+* `servicenow.upload_attachment` - Uploads an attachment to an entry on a ServiceNow Table

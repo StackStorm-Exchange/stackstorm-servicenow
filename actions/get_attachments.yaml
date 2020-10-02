@@ -1,0 +1,11 @@
+---
+name: "get_attachments"
+runner_type: "python-script"
+description: "Gets meta-data for all attachments for specified table"
+enabled: true
+entry_point: "get_attachments.py"
+parameters:
+  table:
+    type: "string"
+    description: "Table to take action on"
+    required: true

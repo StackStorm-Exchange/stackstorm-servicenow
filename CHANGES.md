@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.3.9
+- Add support for upload attachment and get attachment metadata
+
 ## 0.3.8
 - Ensure action's config is configured with packname
 
