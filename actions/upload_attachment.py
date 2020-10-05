@@ -1,6 +1,5 @@
 from lib.actions import BaseAction
 
-import os
 
 class UploadAttachmentAction(BaseAction):
     def run(self, table, file, sysid):
