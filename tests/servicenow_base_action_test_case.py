@@ -13,7 +13,6 @@
 # See the License for the specific language governing permissions and
 
 import yaml
-import sys
 
 from st2tests.base import BaseActionTestCase
 

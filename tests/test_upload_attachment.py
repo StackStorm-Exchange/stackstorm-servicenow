@@ -13,8 +13,6 @@
 # See the License for the specific language governing permissions and
 
 import mock
-import yaml
-import sys
 
 from servicenow_base_action_test_case import ServiceNowBaseActionTestCase
 from upload_attachment import UploadAttachmentAction
@@ -30,8 +28,9 @@ class UploadAttachmentActionTestCase(ServiceNowBaseActionTestCase):
     @mock.patch('pysnow.Client')
     def test_add_attachment(self, mock_client):
         action = self.get_action_instance(self.full_config)
-        result = action.run('table1','file1','sysid1')
-        mock_client.return_value.query.assert_called_with(table="table1", query={'sys_id': "sysid1"})
-        mock_client.return_value.query.return_value.attach.assert_called_with('file1')       
+        result = action.run('table1', 'file1', 'sysid1')
+        mock_client.return_value.query.assert_called_with(table="table1",
+                                                          query={'sys_id': "sysid1"})
+        mock_client.return_value.query.return_value.attach.assert_called_with('file1')
         self.assertIsNotNone(result)
         self.assertTrue(result[0])
