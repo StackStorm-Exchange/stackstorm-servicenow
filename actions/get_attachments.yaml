@@ -1,0 +1,6 @@
+---
+name: "get_attachments"
+runner_type: "python-script"
+description: "Gets meta-data for all attachments"
+enabled: true
+entry_point: "get_attachments.py"

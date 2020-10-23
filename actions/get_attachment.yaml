@@ -1,0 +1,11 @@
+---
+name: "get_attachment"
+runner_type: "python-script"
+description: "Gets metadata for an attachment"
+enabled: true
+entry_point: "get_attachment.py"
+parameters:
+  sys_id:
+    type: "string"
+    description: "Sys-id of attachment to retrieve"
+    required: true

@@ -18,3 +18,11 @@ class BaseAction(Action):
             client.parameters.add_custom(self.config['custom_params'])
 
         return client
+
+    def get_attachments(self, sys_id=None):
+        api_path = "/attachment"
+        if sys_id:
+            api_path += "/{}".format(sys_id)
+        r = self.client.resource(api_path=api_path)
+        records = r.get(query={})
+        return [rec for rec in records.all()]
