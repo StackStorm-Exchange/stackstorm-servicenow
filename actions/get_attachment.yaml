@@ -5,10 +5,6 @@ description: "Gets metadata for an attachment"
 enabled: true
 entry_point: "get_attachment.py"
 parameters:
-  table:
-    type: "string"
-    description: "Table to take action on"
-    required: true
   sys_id:
     type: "string"
     description: "Sys-id of attachment to retrieve"

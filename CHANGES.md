@@ -1,6 +1,6 @@
 # Change Log
 
-## 0.3.9
+## 0.4.0
 - Add support for upload attachment and get attachment metadata
 
 ## 0.3.8
