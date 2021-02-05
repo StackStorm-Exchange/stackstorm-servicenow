@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.0.0
+
+* Drop Python 2.7 support
+
 ## 0.4.0
 - Add support for upload attachment and get attachment metadata
 
