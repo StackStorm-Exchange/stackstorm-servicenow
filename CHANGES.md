@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.5.0
+- Add support of PySNow Resource API via `use_new_service_now_api` flag.
+- Add support for returning specific fields on "get".
+
 ## 0.4.0
 - Add support for upload attachment and get attachment metadata
 
