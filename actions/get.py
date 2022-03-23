@@ -4,7 +4,7 @@ from lib.actions import BaseAction
 class GetAction(BaseAction):
     def run(self, table, query, fields=[]):
         # If using new ServiceNew API...
-        if self.config['use_new_service_now_api'] == True:
+        if self.config['use_new_service_now_api']:
             client = self.client
             resource = client.resource(api_path="/table/{0}".format(table))
             if not fields:
