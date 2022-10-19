@@ -13,3 +13,7 @@ parameters:
     type: "object"
     description: "Structured query for SN data"
     required: true
+  fields:
+    type: "array"
+    description: "Comma-separated list of fields to return. ***Only supported when config parameter use_new_service_now_api is true***"
+    required: false

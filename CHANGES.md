@@ -1,5 +1,10 @@
 # Change Log
 
+=======
+## 1.5.0
+- Add support of PySNow Resource API via `use_new_service_now_api` flag.
+- Add support for returning specific fields on "get".
+
 ## 1.0.0
 
 * Drop Python 2.7 support
